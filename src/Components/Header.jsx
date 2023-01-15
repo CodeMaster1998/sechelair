@@ -9,7 +9,7 @@ function Header() {
             <h1><span>AIR</span> SUSPENSION?</h1>
             <p className='details'>Qaulity And Affordable Air Suspension Kits For Your Vehicle</p>
             <div className='header-btns'>
-                <a href='#' className='header-btn'><Link to='contact' smooth={true} duration={1000}>ENQUIRE NOW!</Link></a>
+                <button className='pr-btn'><Link to='contact' smooth={true} duration={1000}>ENQUIRE NOW!</Link></button>
             </div>
         </div>
     </div>
