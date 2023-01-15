@@ -3,7 +3,7 @@ import FeatureBox from './FeatureBox';
 import fimage1 from '../images/1.svg';
 import fimage2 from '../images/2.svg';
 import fimage3 from '../images/3.svg';
-import fimage4 from '../images/4.svg';
+
 
 function Feature() {
   return (
