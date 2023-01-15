@@ -9,7 +9,7 @@ function FeatureBox(props) {
         </div>
         <div className='a-b-text'>
             <h2>{props.title}</h2>
-            <p>this is the first feature of the product</p>
+            
         </div>
     </div>
   )

@@ -1,14 +1,16 @@
+import { Instagram } from '@mui/icons-material';
 import React from 'react'
 
 function Offer() {
   return (
     <div id='offer'>
         <div className='pr-heading'>
-            <h1>A BIG <span>OFFER</span> FOR THIS SUMMER</h1>
-            <p className='details'>Check out our insane deals</p>
+            
+            <p className='details'>Click the button below to connect with us on instagram</p>
         
         <div className='pr-btns'>
-            <a href='#' className='pr-btn'>Enquire!</a>
+        
+            <a href='https://www.instagram.com/sechel.air/' className='pr-btn'><div className='a-icon'><Instagram/>  sechel.air</div></a>
        </div>
        </div>
     </div>

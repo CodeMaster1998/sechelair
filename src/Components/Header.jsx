@@ -1,14 +1,15 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 
 function Header() {
   return (
     <div id='main'>
         <div className='name'>
-            <h2>ENHANCE YOUR</h2>
-            <h1><span>FITNESS</span> WITH US</h1>
-            <p className='details'>Build Your Body and Fitness With A Professional Touch</p>
+            <h2>DO YOU NEED</h2>
+            <h1><span>AIR</span> SUSPENSION?</h1>
+            <p className='details'>Qaulity And Affordable Air Suspension Kits For Your Vehicle</p>
             <div className='header-btns'>
-                <a href='#' className='header-btn'>JOIN US</a>
+                <a className='header-btn'><Link to='contact' smooth={true} duration={1000}>ENQUIRE NOW!</Link></a>
             </div>
         </div>
     </div>

@@ -10,10 +10,10 @@ function Feature() {
     <div id='features'>
         <h1>FEATURES</h1>
         <div className='a-container'>
-          <FeatureBox image={fimage1} title="Weightlifting"/>
-          <FeatureBox image={fimage2} title="Specific Muscle"/>
-          <FeatureBox image={fimage3} title="Flex Your Muscle"/>
-          <FeatureBox image={fimage4} title="Cardio Exercise"/>
+          <FeatureBox image={fimage1} title="Quality Airbags/Air springs" />
+          <FeatureBox image={fimage2} title="Quality Compressors" />
+          <FeatureBox image={fimage3} title="Remote Control" />
+         
         </div>
     </div>
   )

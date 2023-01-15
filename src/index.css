@@ -6,6 +6,9 @@ body{
     background-color: #000000;
     font-family: 'Lato', sans-serif;
 }
+.list-item{
+    cursor: pointer;
+}
 *{
     box-sizing: border-box;
 }
@@ -32,8 +35,7 @@ input{
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./images/banner.png');
-    position: relative;
+    background-image: url('./images/banner.jpg');
     z-index: 0;
 }
 #main::before{
@@ -101,6 +103,7 @@ nav ul li a:hover{
 	box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
 	transition: all ease 0.2s;
 }
+
 nav .menu-btn,
 .menu-icon{
 		display:none;
@@ -139,14 +142,16 @@ nav .menu-btn,
     display: flex;
     margin-top: 40px;
     margin-left: 40%;
+    cursor: pointer;
 }
 .header-btn{
+    font-family: 'Lato';
 	width:160px;
 	height: 50px;
 	display: flex;
 	justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1rem;
     background-color: #FF1414;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
@@ -191,10 +196,11 @@ nav .menu-btn,
     overflow: hidden;
     transition: 0.4s ease-in-out;
     position: relative;
+    cursor: pointer;
 }
 .a-b-img{
     width: 100%;
-    height: 60%;
+    height: 65%;
 
 }
 .a-b-img img{
@@ -252,7 +258,18 @@ nav .menu-btn,
     background-image: url(images/offer.png);
     text-align: center;
 }
-
+.icon-s{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.a-icon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
 .pr-heading{
     text-align: center;
 	font-family:'Lato';
@@ -267,7 +284,7 @@ nav .menu-btn,
 }
 .pr-heading .details{
     font-size: 23px;
-    color: #c5c5c5;
+    color: #000000;
 }
 .pr-heading .details{
     font-size: 1.2rem;
@@ -292,7 +309,7 @@ nav .menu-btn,
 	display: flex;
 	justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
+    
     background-color: #FF1414;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
@@ -606,4 +623,15 @@ nav .menu-btn,
                 width: 100%;
                 height:400px;
             }
+        }
+        .the-end{
+            height: 30px;
+            background-color: #000000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
         }
