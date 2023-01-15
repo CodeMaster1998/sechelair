@@ -1,4 +1,4 @@
-import { Instagram, LocationCity, Mail, Map, Phone, PinDrop } from '@mui/icons-material'
+import { Instagram, Mail, Phone, PinDrop } from '@mui/icons-material'
 import React from 'react'
 import aboutimage from '../images/about.jpg'
 
