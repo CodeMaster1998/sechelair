@@ -1,8 +1,14 @@
 import React from 'react';
 import {Link} from 'react-scroll';
 import {Helmet} from 'react-helmet';
+import {ReactGA} from 'react-ga';
 
 function Header() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+  
   return (
     <div id='main'>
       <Helmet>
