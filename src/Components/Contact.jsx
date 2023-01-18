@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet';
 //import fireDb from '../firebase';
 
 function Contact() {
@@ -32,6 +33,10 @@ function Contact() {
 
   return (
     <div id='contact'>
+      <Helmet>
+          <title>Get a quote for your vehicles air suspension</title>
+          <meta name="description" content="Send us a message to get a quote on your air suspension, afoordable quality, only with SechelAir"/>
+        </Helmet>
         <h1>GET A QUOTE</h1>
         <ToastContainer/>
         <form className='form1' onSubmit={handleSubmit}>
