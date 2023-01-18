@@ -13,6 +13,11 @@ const TRACKING_ID = "UA-254529854-2"; //Google analytics tracking ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <div className="App">     
         <Helmet>
