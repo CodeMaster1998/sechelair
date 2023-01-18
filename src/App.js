@@ -7,14 +7,14 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Bottom from "./Components/Bottom";
 import {Helmet} from 'react-helmet';
+import ReactGA from 'react-ga'; 
+
+const TRACKING_ID = "UA-254529854-2"; //Google analytics tracking ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
-   
-    
-
-    <div className="App">
-      
+    <div className="App">     
         <Helmet>
           <title>SechelAir Air Suspension Kits</title>
           <meta name="description" content="the best air suspension in South Africa"/>
