@@ -12,7 +12,7 @@ function Feature() {
           <title>SechelAir Air Suspension Features</title>
           <meta name="description" content="Double and Triple Bellow Bags, 444c Air compressor, 5 Gallon Steel Tank, Water Trap, Pressure Switch, iSystem Tebao Management, VU4 Blocks, Wiring + Fuse"/>
         </Helmet>
-        <h1>FEATURES</h1>
+        <h1>FEATURES.</h1>
         <div className='a-container'>
           <FeatureBox image={fimage1} title="Quality Airbags/Air springs" />
           <FeatureBox image={fimage2} title="Quality Compressors" />
