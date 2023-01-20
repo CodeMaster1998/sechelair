@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react';
-import {ToastContainer} from 'react-toastify';
+import {toast, ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 
@@ -13,10 +13,12 @@ function Contact() {
 
     emailjs.sendForm('service_rqra8u5', 'template_0r8znok', e.target, 'kHvHk4gbrTO0KOHIF')
       .then((result) => {
+          toast.success('Message Sent!')
           console.log(result.text);
           console.log('message sent')
       }, (error) => {
           console.log(error.text);
+          toast.error('Message not sent! Try Again')
       });
   };
 
