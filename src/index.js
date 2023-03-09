@@ -37,8 +37,8 @@ root.render(
       enableDeclineButton>
       
 
-      This website uses cookies to enhance the user experience.{" "}
-      <span style={{ fontSize: "10px" }}></span>
+      This website uses cookies to enhance the user experience.
+      
     </CookieConsent>
     <App/>
   </>
